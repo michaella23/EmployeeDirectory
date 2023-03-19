@@ -1,4 +1,4 @@
-import employees from "./employees.js"
+import { employees } from "./employees.js"
 
 const mainContent = employees.map(({image, name, title, bio, social}) => {
     return `
